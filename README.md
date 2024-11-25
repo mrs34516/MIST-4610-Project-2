@@ -49,5 +49,9 @@ Visualization: Average Response Time by Beat
 ![Screenshot (326)](https://github.com/user-attachments/assets/bd0a8e63-f75b-461c-a264-6e7f3cbed97f)
 Writing
 
+## Manipulations
+
+## Tableau Packaged Workbook
+
 
 
