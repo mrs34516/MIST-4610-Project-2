@@ -24,4 +24,12 @@ Silver Spring, Wheaton, and Montgomery Village are the top three districts with 
 
 ## Question 1 Analysis & Results
 ![Screenshot (322)](https://github.com/user-attachments/assets/f7643170-0684-4e6b-96a5-24d2f6b269d2)
+Writing
+
+![Screenshot (323)](https://github.com/user-attachments/assets/7ae15b66-ecf1-481b-b713-a9686d5f6753)
+Writing
+
+![Screenshot (327)](https://github.com/user-attachments/assets/eb58acbf-bafc-46a2-9a49-dca4baccc88b)
+Writing
+
 
