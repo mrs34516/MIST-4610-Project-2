@@ -23,4 +23,5 @@ Identifying which districts experience the most crime, the most prevalent types 
 Silver Spring, Wheaton, and Montgomery Village are the top three districts with the highest levels of crime within our data set and the most prevalent crimes within them are Simple Assault, Theft From Motor Vehicle, Drug/Narcotic Violation. These crimes are reported in the later parts of the day and peak from 6pm to 8pm. Crimes are less frequently reported in the mornings and begin to rise after 5am.This period in the early part of the day is also when dispatch sends out units to the scene as well.
 
 ## Question 1 Analysis & Results
+![Screenshot (322)](https://github.com/user-attachments/assets/f7643170-0684-4e6b-96a5-24d2f6b269d2)
 
