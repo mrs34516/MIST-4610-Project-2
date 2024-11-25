@@ -32,4 +32,17 @@ Writing
 ![Screenshot (327)](https://github.com/user-attachments/assets/eb58acbf-bafc-46a2-9a49-dca4baccc88b)
 Writing
 
+## Question 2
+Within each police agency, which beats are the most efficient responders? In other words, which beats have the quickest average response time?
+
+This question holds significant social, economic, cultural and operational importance. This question is socially significant because police response time is crucial for public safety. We can use this question to analyze which areas have the fastest response time and which areas need improvement. Identifying the beats with the shortest average response times is valuable for evaluating beat assignments, as deploying the most efficient beats in high-crime areas would maximize effectiveness.This question is economically important because slower response times can lead to higher costs due to prolonged investigations. Using this analysis, we can determine which beats are the most efficient, why they are most efficient and how we can reduce response time in slower performing beats. Analyzing average response times can uncover operational efficiencies and shed light on external factors influencing response times, such as traffic congestion or staffing challenges.This is culturally important because communities rely on law enforcement's prompt arrival. With our formulated question, we can use the data on incident response times to optimize process efficiency to promote public safety.
+
+## Question 2 Analysis & Results
+![Screenshot (328)](https://github.com/user-attachments/assets/293ea239-f1e4-4acd-a529-00c6b310cd9b)
+Writing
+
+![Screenshot (326)](https://github.com/user-attachments/assets/bd0a8e63-f75b-461c-a264-6e7f3cbed97f)
+Writing
+
+
 
