@@ -24,15 +24,15 @@ Exploring the question(s) above has social, economic, policy, and strategic impo
 
 Visualization #1: Crime Count by District
 ![Screenshot (322)](https://github.com/user-attachments/assets/f7643170-0684-4e6b-96a5-24d2f6b269d2)
-Writing
+We began answering Question 1 by first identifying which police districts experience the most crime. To do this, we displayed the count of Incident ID by Police District Name and sorted the resulting bars in descending order from left to right. This revealed Silver Spring, Wheaton, and Montgomery Village to be the three districts with the most crime.
 
 Visualization #2: Crime Type Count by District
 ![Screenshot (323)](https://github.com/user-attachments/assets/7ae15b66-ecf1-481b-b713-a9686d5f6753)
-Writing
+Next, we further analyzed crime in these three districts by categorizing incidents by crime type. As shown above, although not in the same order for each district, Simple Assualt, Theft From Motor Vehicle, and Drug/Narcotinc Violations were within the top four crime types for each district.
 
 Visualization #3: Start Time vs. Dispatch Time
 ![Screenshot (327)](https://github.com/user-attachments/assets/eb58acbf-bafc-46a2-9a49-dca4baccc88b)
-Writing
+The dataset includes both start date/time as well as dispatch date/time. The start date/time refers to the date and time the actual crime began while dispatch date/time refers to the date and time police were sent to the scene. We explored the relationship between start date/time and crime type as well as dispatch date/time and crime type. Again, we explored this relationship only for the top three crime districts. The start date/time graph reveals that the occurence of all three crime types of focus (Simple Assault, Theft From Motor Vehicle, and Drug/Narcotic Violations) rises throughout the day with incidents occuring most frequently in the late hours of the day. While start date/time and dispatch date/time are closely correlated for Simple Assault and Drug/Narcotic Violations, there is significant variation between start time/date and dispatch date/time for Theft From Motor Vehicle. This is likely the result of a combination of two conditions. First, as shown in the start date/time visualization, Theft From Motor Vehicle incidents generally occur during the late hours when it's dark and cars are unoccupied and unattended to throughout the night. Owners generally return to their vehicles between 7:00 - 9:00 in the morning to depart for work, school, or other responsibilities, which would also be the time they notice their vehicle has been broken into and would thus explain the peak in dispatch time for Theft From Motor Vehicle incidents during these hours. The variation in start time and dispatch time for Theft From Motor Vehicles can likely also be explained by the fact that car theft is a relatively low priority crime. While car theft may be reported at or near the late hours, police units must prioritize responsing to higher priortiy crimes, including Simple Assault and Drug/Narcotic Violations, that also peak during the same hours. Thus, police units are then instead dispatched to car theft crime scenes during periods with less crime, explaining the rise in dispatch time for the Theft From Motor Vehicle crime type from 7:00 - 9:00 AM. 
 
 ## Question 2
 Within each police agency, which beats are the most efficient responders? In other words, which beats have the quickest average response time?
