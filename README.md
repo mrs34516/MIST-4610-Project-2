@@ -18,21 +18,21 @@ Insert Table
 ## Question 1
 Which police districts experience the highest levels of crime, and what are the most prevalent crime types within those districts? Furthermore, at what times are these crimes most frequently committed, categorized by crime type? 
 
-Identifying which districts experience the most crime, the most prevalent types of crime in those districts, and the times at which these crimes occur and require police dispatch allows authorities to effectively evaluate and deploy resources, including personnel and preventative measures like lighting and security cameras.
+Identifying the police districts that experience the most crime, the most prevalent types of crime in those districts, and the times at which these crimes occur and require police dispatch allows authorities to effectively evaluate and deploy resources, including personnel and preventative measures like lighting and security cameras.
 
 Silver Spring, Wheaton, and Montgomery Village are the top three districts with the highest levels of crime within our data set and the most prevalent crimes within them are Simple Assault, Theft From Motor Vehicle, Drug/Narcotic Violation. These crimes are reported in the later parts of the day and peak from 6pm to 8pm. Crimes are less frequently reported in the mornings and begin to rise after 5am.This period in the early part of the day is also when dispatch sends out units to the scene as well.
 
 ## Question 1 Analysis & Results
 
-Visual #1: Crime Count by District
+Visualization #1: Crime Count by District
 ![Screenshot (322)](https://github.com/user-attachments/assets/f7643170-0684-4e6b-96a5-24d2f6b269d2)
 Writing
 
-Visual #2: Crime Type Count by District
+Visualization #2: Crime Type Count by District
 ![Screenshot (323)](https://github.com/user-attachments/assets/7ae15b66-ecf1-481b-b713-a9686d5f6753)
 Writing
 
-Visual #3: Start Time vs. Dispatch Time
+Visualization #3: Start Time vs. Dispatch Time
 ![Screenshot (327)](https://github.com/user-attachments/assets/eb58acbf-bafc-46a2-9a49-dca4baccc88b)
 Writing
 
@@ -47,7 +47,7 @@ Calculated Field
 ![Screenshot (328)](https://github.com/user-attachments/assets/293ea239-f1e4-4acd-a529-00c6b310cd9b)
 Writing
 
-Visual: Average Response Time by Beat
+Visualization: Average Response Time by Beat
 ![Screenshot (326)](https://github.com/user-attachments/assets/bd0a8e63-f75b-461c-a264-6e7f3cbed97f)
 Writing
 
