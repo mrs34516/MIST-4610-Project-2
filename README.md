@@ -23,12 +23,16 @@ Identifying which districts experience the most crime, the most prevalent types 
 Silver Spring, Wheaton, and Montgomery Village are the top three districts with the highest levels of crime within our data set and the most prevalent crimes within them are Simple Assault, Theft From Motor Vehicle, Drug/Narcotic Violation. These crimes are reported in the later parts of the day and peak from 6pm to 8pm. Crimes are less frequently reported in the mornings and begin to rise after 5am.This period in the early part of the day is also when dispatch sends out units to the scene as well.
 
 ## Question 1 Analysis & Results
+
+Visual #1: Crime Count by District
 ![Screenshot (322)](https://github.com/user-attachments/assets/f7643170-0684-4e6b-96a5-24d2f6b269d2)
 Writing
 
+Visual #2: Crime Type Count by District
 ![Screenshot (323)](https://github.com/user-attachments/assets/7ae15b66-ecf1-481b-b713-a9686d5f6753)
 Writing
 
+Visual #3: Start Time vs. Dispatch Time
 ![Screenshot (327)](https://github.com/user-attachments/assets/eb58acbf-bafc-46a2-9a49-dca4baccc88b)
 Writing
 
@@ -38,9 +42,12 @@ Within each police agency, which beats are the most efficient responders? In oth
 This question holds significant social, economic, cultural and operational importance. This question is socially significant because police response time is crucial for public safety. We can use this question to analyze which areas have the fastest response time and which areas need improvement. Identifying the beats with the shortest average response times is valuable for evaluating beat assignments, as deploying the most efficient beats in high-crime areas would maximize effectiveness.This question is economically important because slower response times can lead to higher costs due to prolonged investigations. Using this analysis, we can determine which beats are the most efficient, why they are most efficient and how we can reduce response time in slower performing beats. Analyzing average response times can uncover operational efficiencies and shed light on external factors influencing response times, such as traffic congestion or staffing challenges.This is culturally important because communities rely on law enforcement's prompt arrival. With our formulated question, we can use the data on incident response times to optimize process efficiency to promote public safety.
 
 ## Question 2 Analysis & Results
+
+Calculated Field
 ![Screenshot (328)](https://github.com/user-attachments/assets/293ea239-f1e4-4acd-a529-00c6b310cd9b)
 Writing
 
+Visual: Average Response Time by Beat
 ![Screenshot (326)](https://github.com/user-attachments/assets/bd0a8e63-f75b-461c-a264-6e7f3cbed97f)
 Writing
 
