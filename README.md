@@ -58,13 +58,13 @@ Visualization: Average Response Time by Beat
 ![Screenshot (331)](https://github.com/user-attachments/assets/0bfa8b6a-f937-4ef5-a999-25ee9e21a2ba)
 ![Screenshot (332)](https://github.com/user-attachments/assets/6ddf1fb1-6968-4ab0-a988-627da65ae241)
 
-To answer Question 2, we examined the average response time for the highest-performing beats within each agency. To focus the analysis on beats with the fastest average response times, we filtered the average response time to only include those beats who had an average response time between 0 and 1,440 minutes (24 hours). Visually, it is evident that MCFM's beats have the lowest average response times. We then calculated the percentage of beats that could be calulcated per agency by dividing the number of beats left after filering by the total number of beats per agency and found the top performing agencies to be as follow:
-- MCFM: 68.2%
-- TPPD: 52.6%
-- MCSO: 47.1%
-- GPD: 45.2%
-- RCPD: 24.2%
-- MCPD: 15.5% 
+To answer Question 2, we examined the average response time for the highest-performing beats within each agency. To focus the analysis on beats with the fastest average response times, we filtered the average response time to only include those beats who had an average response time between 0 and 1,440 minutes (24 hours). Visually, it is evident that MCFM's beats have the lowest average response times, but we also calculated the percentage of beats that could be classified as high-performing by dividing the number of beats with an average response time between 0 - 1,440 by the total number of beats per agency and found the top performing agencies to be as follow:
+- MCFM: 68.2% (30/44)
+- TPPD: 52.6% (10/19)
+- MCSO: 47.1% (8/17)
+- GPD: 45.2% (19/42)
+- RCPD: 24.2% (8/33)
+- MCPD: 15.5% (9/58)
 
 ## Manipulations
 We did not make any manipulations to the raw data source, but we did remove null values and outliers throughout our analyses. When using the Police District Name, Crime Name2, Start Date/Time, Disptach Date/Time, Agency, and Beat columns, we always removed null values. As discussed throughout our anaylses, we also regularly applied filters and created a calculated field (Response Time).
