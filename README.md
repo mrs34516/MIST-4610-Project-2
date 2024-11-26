@@ -57,6 +57,7 @@ Visualization: Average Response Time by Beat
 ![Screenshot (326)](https://github.com/user-attachments/assets/bd0a8e63-f75b-461c-a264-6e7f3cbed97f)
 ![Screenshot (331)](https://github.com/user-attachments/assets/0bfa8b6a-f937-4ef5-a999-25ee9e21a2ba)
 ![Screenshot (332)](https://github.com/user-attachments/assets/d32feb67-0cbf-4f5a-ab55-e6a7050745d2)
+
 To answer Question 2, we examined the average response time for the highest-performing beats within each agency. To focus the analysis on beats with the fastest average response times, we filtered the average response time to only include those beats who had an average response time between 0 and 1,440 minutes (24 hours). Visually, it is evident that MCFM's beats have the lowest average response times. We then calculated the percentage of beats that could be calulcated per agency by dividing the number of beats left after filering by the total number of beats per agency and found the top performing agencies to be as follow:
 - MCFM: 68.2%
 - TPPD: 52.6%
