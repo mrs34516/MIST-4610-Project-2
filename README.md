@@ -11,7 +11,7 @@
 
 The dataset we selected contains information on founded crime reported after July 1st, 2016 in Montgomery County of Maryland. The data is derived from the Montgomery County Police Department's database of founded crime and was obtained from the United States Government's open data site, https://catalog.data.gov/dataset. 
 
-The dataset contains 421,538 rows and 30 columns of data, including temporal, spatial, and categorical data related to each reported crime incident. Included below is a compehensive list of the dataset's 30 columns, including a description and data type for each column. The key columns we focused on are highlighed below and are as follows: Incident ID, Dispatch Date / Time, Start_Date_Time, Crime Name2, Police District Name, Agency, and Beat.
+The dataset contains 421,538 rows and 30 columns of data, including temporal, spatial, and categorical data related to each reported crime incident. Included below is a comprehensive list of the dataset's 30 columns, including a description and data type for each column. The key columns we focused on are highlighed below and are as follows: Incident ID, Dispatch Date / Time, Start_Date_Time, Crime Name2, Police District Name, Agency, and Beat.
 
 ![image](https://github.com/user-attachments/assets/bfda1e55-b00a-49f5-beb9-214dfe28cbd0)
 
