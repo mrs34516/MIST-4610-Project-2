@@ -28,7 +28,7 @@ We began answering Question 1 by first identifying which police districts experi
 
 Visualization #2: Crime Type Count by District
 ![Screenshot (323)](https://github.com/user-attachments/assets/7ae15b66-ecf1-481b-b713-a9686d5f6753)
-Next, we further analyzed crime in these three districts by categorizing incidents by crime type. As shown above, although not in the same order for each district, Simple Assualt, Theft From Motor Vehicle, and Drug/Narcotinc Violations were within the top four crime types for each district.
+Next, we further analyzed crime in these three districts by categorizing incidents by crime type. As shown above, although not in the same order for each district, Simple Assualt, Theft From Motor Vehicle, and Drug/Narcotinc Violations were within the top four crime types for each district. It is important to note, however, that we did filter to exclude the "All Other Offenses" crime type for each district as this category had the highest incident count for each category but did not provide relevant insight.
 
 Visualization #3: Start Time vs. Dispatch Time
 ![Screenshot (327)](https://github.com/user-attachments/assets/eb58acbf-bafc-46a2-9a49-dca4baccc88b)
@@ -67,8 +67,9 @@ To answer Question 2, we examined the average response time for the highest-perf
 - MCPD: 15.5% 
 
 ## Manipulations
+We did not make any manipulations to the raw data source, but we did remove null values and outliers throughout our analyses. When using the Police District Name, Crime Name2, Start Date/Time, Disptach Date/Time, Agency, and Beat columns, we always removed null values. As discussed throughout our anaylses, we also regularly applied filters and created a calculated field (Response Time).
 
 ## Tableau Packaged Workbook
-
+The Tableau Packaged Workbook containing the visualizations throughout this file is included in this repository. Our Powerpoint Presentation is also included in this repository.
 
 
