@@ -37,23 +37,33 @@ The dataset includes both start date/time as well as dispatch date/time. The sta
 While start date/time and dispatch date/time are closely correlated for Simple Assault and Drug/Narcotic Violations, there is significant variation between start time/date and dispatch date/time for Theft From Motor Vehicle. This is likely the result of a combination of two conditions. First, as shown in the start date/time visualization, Theft From Motor Vehicle incidents generally occur during the late hours when it's dark and cars are unoccupied and unattended to throughout the night. Owners generally return to their vehicles between 7:00 - 9:00 in the morning to depart for work, school, or other responsibilities, which would also be the time they notice their vehicle has been broken into and would thus explain the peak in dispatch time for Theft From Motor Vehicle incidents during these hours. The variation in start time and dispatch time for Theft From Motor Vehicles can likely also be explained by the fact that car theft is a relatively low priority crime. While car theft may be reported at or near the late hours, police units must prioritize responsing to higher priortiy crimes, including Simple Assault and Drug/Narcotic Violations, that also peak during the same hours. Thus, police units are then instead dispatched to car theft crime scenes during periods with less crime, explaining the rise in dispatch time for the Theft From Motor Vehicle crime type from 7:00 - 9:00 AM. 
 
 ## Question 2
-Within each police agency, which beats are the most efficient responders? In other words, which beats have the quickest average response time?
+Within each police agency, which beats are the most efficient responders? In other words, which beats have the quickest average response time? Additionally, which agencies have the highest percentage of high-performing beats?
 
-For clarification purposes, a beat refers to a specific geographic area assigned to a police officer or a group of officers. 
+For clarification purposes, a beat refers to a specific geographic area assigned to a police officer or a group of officers. Beats are housed under police agencies.
 
 This question holds significant social, economic, cultural and operational importance. This question is socially significant because efficient response time is crucial in ensuring public safety. Responding to crime incidents quickly can prevent the escalation of emergencies, save lives, reduce harm, and build trust between law enforcement and citizens. While examining response time in general is beneficial, knowing the specific beats with the fastest responses times allows for higher-level analysis and decision-making. By identifying the beats with the shortest average response times, police agencies are better able to evaluate and make personnel assignments, as deploying the most efficient officers in high-crime areas would maximize resource utililzation and policing effectiveness. Similar to Question 1, this question is also economically important because strategic beat assignments helps improve cost-effectiveness and reduce losses from crime. 
 
-By closely analyzing high-performing beats, police agencies and the local government can also determine which factors outside of merely personnel promote fast response times. For example, beats with slower average response times may be hindered by factors such as traffic congestion, poor lighting, or construction zones. By examining the beats with the shortest average response times, agencies and policymakers can attempt to identify and mimick conditions that empower police units to respond as quick as possible.
+By closely analyzing high-performing beats, police agencies and the local government can also determine which factors outside of merely personnel promote fast response times. For example, beats with slower average response times may be hindered by factors such as traffic congestion, poor lighting, or construction zones. By examining the beats with the shortest average response times, agencies and policymakers can attempt to identify and mimick conditions that empower police units to respond as quick as possible. 
+
+This analysis can also identify which agencies have the most high performing beats by calculating the percentage of total beats within an agency that can be classified as "high-performing." This knowledge can support the local government's policy agency funding initiatives and decisions and, similarily to the previous paragraph, agencies and government representatives can evaluate high-performing agencies to institute similar practicies within low-performing agencies to work to work to achieve the discussed social, economical, cultural, and operational benefits discussed. 
 
 ## Question 2 Analysis & Results
 
 Calculated Field
 ![Screenshot (328)](https://github.com/user-attachments/assets/293ea239-f1e4-4acd-a529-00c6b310cd9b)
-Writing
+Before creating our visualization, we first needed to create a calculated field for Response Time. As discussed during Question 1, the dataset include both Start Date/Time and Dispatch Date/Time. Thus, Response Time was calculated by using the DATEDIFF function, which found the difference between the Start Date/Time and Dispatch Date/Time in minutes as shown above.
 
 Visualization: Average Response Time by Beat
 ![Screenshot (326)](https://github.com/user-attachments/assets/bd0a8e63-f75b-461c-a264-6e7f3cbed97f)
-Writing
+![Screenshot (331)](https://github.com/user-attachments/assets/0bfa8b6a-f937-4ef5-a999-25ee9e21a2ba)
+![Screenshot (332)](https://github.com/user-attachments/assets/d32feb67-0cbf-4f5a-ab55-e6a7050745d2)
+To answer Question 2, we examined the average response time for the highest-performing beats within each agency. To focus the analysis on beats with the fastest average response times, we filtered the average response time to only include those beats who had an average response time between 0 and 1,440 minutes (24 hours). Visually, it is evident that MCFM's beats have the lowest average response times. We then calculated the percentage of beats that could be calulcated per agency by dividing the number of beats left after filering by the total number of beats per agency and found the top performing agencies to be as follow:
+- MCFM: 68.2%
+- TPPD: 52.6%
+- MCSO: 47.1%
+- GPD: 45.2%
+- RCPD: 24.2%
+- MCPD: 15.5% 
 
 ## Manipulations
 
