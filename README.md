@@ -66,7 +66,7 @@ To answer Question 2, we examined the average response time for the highest-perf
 - RCPD: 24.2% (8/33)
 - MCPD: 15.5% (9/58)
 
-## Manipulations
+## Manipulations 
 We did not make any manipulations to the raw data source, but in addition to the filters and calculated fields we discussed in detail during the Analysis and Results portions of this file, we did also remove null values throughout our analyses. When using the Police District Name, Crime Name2, Start Date/Time, Disptach Date/Time, Agency, and Beat columns, we always removed null values.
 
 ## Tableau Packaged Workbook
