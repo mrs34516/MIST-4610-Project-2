@@ -13,7 +13,7 @@ The dataset we selected contains information on founded crime reported after Jul
 
 The dataset contains 421,538 rows and 30 columns of data, including temporal, spatial, and categorical data related to each reported crime incident. Included below is a compehensive list of the dataset's 30 columns, including a description and data type for each column. The key columns we focused on are highlighed below and are as follows: Incident ID, Dispatch Date / Time, Start_Date_Time, Crime Name2, Police District Name, Agency, and Beat.
 
-Insert Table
+![image](https://github.com/user-attachments/assets/0fbd59a9-3e57-407c-909f-1c60333e056b)
 
 ## Question 1
 Which police districts experience the highest levels of crime, and what are the most prevalent crime types within those districts? Furthermore, at what times are these crimes most frequently committed, categorized by crime type? 
